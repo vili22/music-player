@@ -1,0 +1,33 @@
+music-player
+====================================
+Music-player is a simple player that plays
+mp3,ogg and wav files from local file system
+
+Usage
+------------
+Listview shows music files and other directories
+in the current directory. Start playing by double
+clicking the musics file and browse for music files
+by double clikcing the other directories.
+
+This version of the program is made for Linux
+
+Dependencies
+------------
+- g++, make
+- cmake
+- Qt >= 4.8
+- boost libraries
+- sfml : get the SDK from the following link 
+         http://www.sfmldev.org/download.php and copy the
+         libsfml-audio.so.2,libsfml-graphics.so.2,
+         libsfml-system.so.2,libsfml-window.so.2 files to
+	 /usr/local/libs and the SFML include folder to 
+         /usr/local/include  
+
+
+Compilation/installation
+-----------
+    $ cmake src
+    $ make
+
